@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Style/Contact.css';
+import '../../Style/Contact.css';
 import { Link } from 'react-router-dom';
 
 function Body() {

@@ -5,12 +5,12 @@ import { Routes, Route } from 'react-router-dom';
 import Body from './Component/Home/Body';
 import Login from './Component/Account/Login';
 import FeedBack from './Component/Home/FeedBack';
-import AboutUs from './Component/AboutUs';
+import AboutUs from './Component/Account/AboutUs';
 import Register from './Component/Account/Register';
-import ContactUs from './Component/ContactUs';
+import ContactUs from './Component/Account/ContactUs';
 import Footer from './Component/Footer';
 import Gallery from './Component/Gallery';
-import FAQ from './Component/FAQ';
+import FAQ from './Component/Account/FAQ';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import BestSell from './Component/BestSell';
@@ -40,10 +40,10 @@ function App() {
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
           <Route path='/Feedback' element={<FeedBack />} />
-          <Route path='/AboutUs' element={<AboutUs />} />
-          <Route path="/ContactUs" element={<ContactUs />} />
+          <Route path='/Component/Account/AboutUs.js' element={<AboutUs />} />
+          <Route path="/Component/Account/ContactUs.js" element={<ContactUs />} />
           <Route path="/Gallery" element={<Gallery />} />
-          <Route path="/FAQ" element={<FAQ />} />
+          <Route path="/Component/Account/FAQ.js" element={<FAQ />} />
           <Route path='/BestSell' element={<BestSell />} />
           <Route path='/CeilingFan' element={<CeilingFan />} />
           <Route path='/PedestalFan' element={<PedestalFan />} />
